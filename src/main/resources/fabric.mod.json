@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "pet-protect",
+	"version": "1.0.0",
+	"name": "Pet Protect",
+	"description": "Simple mod to prevent pet owners from hurting their animals.",
+	"authors": [
+		"MylesGit"
+	],
+	"contact": {
+		"homepage": "https://modrinth.net/",
+		"sources": "https://github.com/MylesGit/petprotect"
+	},
+	"license": "MIT",
+	"icon": "assets/pet-protect/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.myles124.petprotect.PetProtect"
+		],
+		"client": [
+			"net.myles124.petprotect.PetProtectClient"
+		]
+	},
+	"mixins": [
+		"pet-protect.mixins.json",
+		{
+			"config": "pet-protect.client.mixins.json",
+			"environment": "server"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.0",
+		"minecraft": ">=1.21",
+		"java": ">=21"
+	}
+}
