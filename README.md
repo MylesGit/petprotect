@@ -1,9 +1,3 @@
-# Pet Protect
-
-**Minecraft Version**: >=1.21  
-**Mod Version**: 1.0.0  
-**Mod Loader**: Fabric
-
 ## Description
 
 **Pet Protect** is a simple Minecraft mod that prevents players from accidentally attacking their own tamed pets, including wolves, cats, parrots, and horse-like entities (horses, donkeys, and mules). When a player attempts to attack their own pet or horse, the attack is canceled, ensuring that pets are safe from accidental damage by their owners.
